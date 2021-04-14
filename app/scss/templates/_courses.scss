@@ -1,0 +1,120 @@
+.main-courses {
+
+  &__body {
+    background: url('../img/pluses-bg.png') no-repeat center/cover;
+  }
+
+  &__body-inner {
+    padding-top: 150px;
+    min-height: 100vh;
+  }
+}
+
+.main-courses-list {
+
+  &__columns {
+    width: 100%;
+    display: flex;
+    font-size: 24px;
+    padding: 20px 10px;
+    color: #ffffff;
+    font-weight: bold;
+    
+  }
+
+  &__name-col {
+    width: 60%;
+    margin-right: 20px;
+    
+  }
+
+  &__duration-col {
+    width: 20%;
+    margin-right: 20px;
+   
+  }
+
+  &__author-col {
+    width: 20%;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  &__item {
+    margin-bottom: 15px;
+    background: $dark-bg;
+   
+  }
+
+  &__prev{
+    width: 100%;
+    display: flex;
+    color: #ffffff;
+   
+    font-size: 25px;
+    padding: 25px 10px;
+    border-top: 2px solid;
+    transition: 0.3s;
+    &:hover{
+      background: #554264;
+    }
+    &_active{
+      background: #554264;
+    }
+    cursor: pointer;
+   
+  }
+
+  &__name {
+    width: 60%;
+    margin-right: 20px;
+    overflow-wrap: break-word;
+    display: block;
+  }
+
+  &__duration {
+    width: 20%;
+    margin-right: 20px;
+    display: block;
+  }
+
+  &__author {
+    width: 20%;
+    text-align: center;
+    margin-right: 20px;
+    overflow-wrap: break-word;
+    display: block;
+  }
+
+  &__descr{
+    color: #ffffff;
+    padding: 25px 10px;
+    display: none;
+    
+  }
+  &__descr-text{
+    text-align: justify;
+    font-size: 24px;
+    overflow-wrap: break-word;
+  }
+
+  &__download{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    background: $gradient-bg;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 10px;
+    transition: 0.3s;
+    &:hover{
+      background: $gradient-darker-bg
+    }
+  }
+}
+
+.active{
+  display: block;
+}

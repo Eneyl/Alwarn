@@ -1,0 +1,136 @@
+.header {
+  .wrapper{
+    position: relative;
+  } 
+  &__body {
+    padding: 10px 16px 10px 16px;
+    display: flex;
+    background: $light-bg;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    
+  }
+  
+}
+
+.logo {
+  width: 300/1660*100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 35px;
+  &__img {
+  }
+}
+.header__nav{
+  width: 100% - 300/1660*100%;
+  display: flex;
+  padding-right: 0;
+}
+.search {
+  width: 80%;
+ 
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
+  &__inp {
+    @include input-reset;
+    border-radius: 5px;
+    width: 82%;
+    padding: 10px 10px 10px 50px;
+    font-size: 20px;
+    background: #ffffff url('/img/icons/loupe.png') no-repeat 10px center
+  }
+
+  &__btn {
+    @include button-reset;
+    border-radius: 5px;
+    background: $gradient-bg;
+    font-size: 20px;
+    padding: 10px;
+    color: #ffff;
+    font-family: 'GothamPro-Light';
+    &:hover{
+      @include hover-btn;
+    }
+  }
+}
+
+.courses{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  margin-right: 10px;
+  &__link{
+    border-radius: 5px;
+    background: $gradient-bg;
+    font-size: 20px;
+    padding: 10px;
+    color: #ffff;
+    font-family: 'GothamPro-Light';
+    
+    text-decoration: none;
+    &:hover{
+      @include hover-btn;
+    }
+  }
+  
+}
+.account {
+  width: 10%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
+
+  &__btn {
+   
+    border-radius: 5px;
+    background: $gradient-bg;
+    font-size: 20px;
+    padding: 10px;
+    color: #ffff;
+    font-family: 'GothamPro-Light';
+    text-decoration: none;
+    &:hover{
+      @include hover-btn;
+    }
+  }
+}
+
+.humburger{
+  display: none;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  background: $light-bg;
+  &__line{
+    width: 70px;
+    height: 4px;
+    background: black;
+    position: relative;
+    &::before, &::after{
+      content: '';
+      width: 100%;
+      height: 4px;
+      background: black;
+      position: absolute;
+    }
+    &::before{
+      top: -8px;
+    }
+    &::after{
+      top: 8px;
+    }
+  }
+}

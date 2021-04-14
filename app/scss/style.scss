@@ -1,0 +1,34 @@
+@import 'vars';
+@import 'mixins';
+@import 'libs';
+@import 'reset-style';
+@import 'fonts';
+
+@import 'templates/header';
+
+
+body{
+  background: $light-bg;
+  font-family: 'GothamPro';
+  zoom: 75%;
+}
+.wrapper {
+  max-width: 1660px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+.container {
+  padding-right: 67px;
+  padding-left: 67px;
+}
+
+
+@import 'templates/main-index';
+@import 'templates/courses';
+    
+@import 'media';
+
+
+
+

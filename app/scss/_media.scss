@@ -1,0 +1,463 @@
+@media (max-width: 1228px){
+  .reviews {
+
+    &__item-best-deal-subtitle {
+      font-size: 40px;
+    }
+  
+  
+  
+  }
+}
+
+@media (max-width: 1100px){
+  .container {
+    padding-right: 33px;
+    padding-left: 33px;
+  }
+  .reviews {
+
+    &__item-best-deal-subtitle {
+      font-size: 36px;
+    }
+  
+    &__item-title {
+      padding-top: 30px;
+      font-size: 29px;
+    }
+
+    &__item-best-deal-title {
+      padding-top: 35px;
+    }
+
+    &__item-best-deal-text {
+      padding-left: 55px;
+    }
+
+    &__item-student-rev{
+      &_padding-left, &_padding-right{
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+    }
+
+    &__item-best-deal-bg{
+      width: 58.24096%
+    }
+  }
+}
+
+@media (max-width: 912px){
+  .reviews {
+    &__item-text{
+      font-size: 19px;
+    }
+
+    &__item-best-deal-bg {
+
+    }
+    
+    &__item-best-deal-subtitle {
+      font-size: 29px;
+    }
+    
+    &__item-title {
+      padding-top: 30px;
+      font-size: 26px;
+    }
+
+    &__item-best-deal-title {
+      padding-top: 25px;
+      font-size: 29px;
+    }
+
+    &__item-best-deal-text {
+      padding-left: 45px;
+    }
+
+    &__item-student-rev{
+      &_padding-left, &_padding-right{
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+    }
+  }
+  .pluses-personal-recomend__text{
+    font-size: 30px;
+  }
+  .high-score__title{
+    font-size: 42px;
+  }
+  .footer__title{
+    font-size: 35px;
+  }
+
+  .pluses-advantage__uptitle{
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 828px){
+  .reviews__item-best-deal-descr-btn{
+    margin-top: 11px;
+  }
+}
+
+@media (max-width: 799px){
+
+  .high-score__title{
+    font-size: 35px;
+  }
+  .pluses-personal-recomend__text{
+    font-size: 26px;
+  }
+  .pluses-personal-recomend__btn{
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 787px){
+  .search{
+    width: 60%;
+  }
+  .account{
+    width: 20%;
+  }
+  .courses{
+    width: 20%;
+  }
+  .reviews__item-name {
+    font-size: 24px;
+  }
+  .reviews__item-title {
+    font-size: 24px;
+  }
+  .reviews__item-best-deal{
+    width: initial;
+  }
+
+  .reviews__row_left {
+    padding-top: 115px;
+  }
+
+  .reviews__item-best-deal-title{
+    font-size: 24px;
+  }
+
+  .reviews__item-best-deal-subtitle{
+    font-size: 26px;
+  }
+
+  .social__body{
+    min-height: initial;
+  }
+
+  .main-courses-list__name-col {
+    width: 45%;
+  }
+  .main-courses-list__duration-col {
+    width: 55/2 *1%;
+  }
+  .main-courses-list__author-col {
+    width: 55/2 *1%;
+  }
+
+  .main-courses-list__name{
+    width: 45%;
+  }
+  .main-courses-list__duration {
+    width: 55/2 *1%;
+  }
+  .main-courses-list__author-col {
+    width: 55/2 *1%;
+  }
+  
+}
+
+@media(max-width: 737px){
+  .pluses-advantage__uptitle {
+    font-size: 36px;
+  } 
+  .high-score__title{
+    font-size: 30px;
+  }
+  .footer__title{
+    font-size: 30px;
+  }
+  
+  .reviews__item-title{
+    font-size: 22px;
+  }
+  .reviews__item-name{
+    font-size: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media(max-width: 650px){
+  .reviews__body-inner{
+    padding-bottom: 50px;
+  }
+  .high-score__body-inner{
+    padding-top: 20px;
+    top: 0;
+  }
+  .high-score__title{
+    top: 0;
+
+  }
+  .reviews__item-best-deal-descr-img{
+    top: 0;
+  }
+  .footer__body{
+    padding-top: 50px;
+  }
+}
+
+@media(max-width: 583px){
+
+ 
+
+  .pluses-advantage__slider-title{
+    font-size: 24px;
+  }
+
+  .pluses-advantage__slider-subtitle{
+    font-size: 19px;
+  }
+  .pluses-personal-recomend__text {
+    font-size: 22px;
+  }
+  .main-screen-prew__titel{
+    font-size: 85px;
+  }
+
+  .pluses__body{
+    min-height: 1221px
+  }
+  .pluses__body-inner{
+    min-height: 1341px;
+  }
+  .pluses-advantage__uptitle, .pluses-advantage__subtitle{
+    font-size: 27px;
+  }
+
+  .reviews__item-best-deal-descr-img {
+    display: none;
+  }
+
+  .reviews__item-best-deal{
+    position: initial;;
+  }
+
+  .reviews__item-best-deal-text{
+    width: 100%;
+  }
+
+  .reviews__item-student-rev{
+    width: 53%;
+  }
+
+  .reviews__item-best-deal-bg{
+    width: 47%;
+    min-height: initial;
+  }
+
+  .reviews__body-inner{
+    padding-top: 70px;
+    min-height: initial;
+  }
+
+  .reviews__row_left {
+    padding-top: 45px;
+  }
+
+  .high-score__title{
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer__title{
+    width: 50%;
+  }
+
+  .main-courses-list__name-col {
+    width: 40%;
+  }
+  .main-courses-list__duration-col {
+    width: 60/2 *1%;
+  }
+  .main-courses-list__author-col {
+    width: 60/2 *1%;
+  }
+
+  .main-courses-list__name{
+    width: 40%;
+  }
+  .main-courses-list__duration {
+    width: 30%;
+  }
+  .main-courses-list__author {
+    width: 30%;
+  }
+}
+
+@media(max-width: 426px){
+  .header__body{
+    top: -140px;
+    display: block;
+    transition: 0.3s;
+    &_active{
+      
+      top: 40px;
+      
+    }
+  }
+
+  .humburger{
+    display: flex;
+    position: relative;
+    z-index: 10;
+  }
+
+  .container{
+    padding: 0;
+  }
+  
+  .logo{
+    width: 100%;
+  }
+  .header__nav{
+    padding-top: 20px;
+    width: 100%;
+  }
+  .main-screen-prew{
+    padding-top: 26px;
+  }
+  .main-screen-prew__titel {
+    font-size: 65px;
+  }
+  .main-screen-prew__subtitel {
+    font-size: 40px;
+  }
+  .main-screen__body{
+    min-height: 900px;
+  }
+  .pluses__body {
+    min-height: 1421px;
+  }
+  .reviews__item-best-deal-title{
+    font-size: 21px;
+  }
+  .reviews__item-best-deal-subtitle{
+    font-size: 21px;
+  }
+  
+  .reviews__item-best-deal-descr{
+    padding-top: 15px;
+  }
+  .reviews__item-best-deal-text{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .reviews__item-student-rev_padding-left, .reviews__item-student-rev_padding-right {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .pluses-advantage__icon{
+    margin-right: 20px;
+  } 
+
+  .footer__nav-body{
+    display: block;
+    ul{
+      display: flex;
+      margin: 0;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+
+  .footer__nav-item{
+    margin-right: 15px;
+  }
+  .pluses-personal-recomend__body{
+    width: 100%;
+  }
+
+  .main-courses-list__columns{
+    display: none;
+  }
+
+  .main-courses-list__item{
+    display: block;
+    text-align: center;
+  }
+  .main-courses-list__name-col {
+    width: 100%;
+  }
+  .main-courses-list__duration-col {
+    width: 100%;
+  }
+  .main-courses-list__author-col {
+    width: 100%;
+  }
+
+  .main-courses-list__name{
+    width: 100%;
+  }
+  .main-courses-list__duration {
+    width: 100%;
+  }
+  .main-courses-list__author {
+    width: 100%;
+  }
+
+  .main-courses__body-inner{
+    padding-top: 15px;
+  }
+}
+
+
+@media(max-width: 399px){
+  .high-score__slider-title{
+    padding-left: 71px;
+    padding-right: 75px;
+  }
+  .high-score__slider-name {
+    font-size: 19px;
+    color: #ffffff;
+  }
+  .high-score__slider-score{
+    padding-right: 57px;
+  }
+
+  .pluses__body-inner {
+    min-height: 1600px;
+  }
+
+  .pluses__body {
+    min-height: 1485px;
+  }
+
+  .high-score__title {
+    font-size: 28px;
+  }
+
+  
+}
+
+@media (max-width: 320px){
+  .pluses-personal-recomend__btn{
+    padding: 8px 36px;
+  }
+  .high-score__slider-title{
+    padding-left: 30px;
+    padding-right: 3px;
+  }
+  .high-score__slider-score {
+    padding-right: 18px;
+  }
+}

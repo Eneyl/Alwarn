@@ -1,0 +1,47 @@
+@mixin button-reset {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  &:hover{
+    @include hover-btn;
+  }
+}
+
+@mixin input-reset{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  outline: none;
+}
+
+@mixin button-slider{
+  background: $gradient-bg;
+  font-size: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  position: absolute;
+  z-index: 10;
+}
+
+@mixin arrow-right{
+  right: -44px;
+  top: 50%;
+ 
+}
+
+@mixin arrow-left{
+  left: -44px;
+  top: 50%;
+}
+
+@mixin hover-btn{
+  background: $gradient-darker-bg;
+}
